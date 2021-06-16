@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <title>My Website</title>
+</head>
+
+<body>
+    <header id="home">
+        <img id="logo" src="./images/radley_logo.png">
+        <nav>
+            <a class="nav-display" href="#home">Home</a>
+            <a class="nav-display" href="#about">About</a>
+            <a class="nav-display" href="#services">Services</a>
+            <a class="nav-display" href="#contact-us">Contact Us</a>
+        </nav>
+        <div class="social-icons">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fas fa-phone-alt"></i>
+            <i class="far fa-envelope"></i>
+        </div>
+        <div class=hamburger-icon>
+            <i class="fas fa-bars"></i>
+        </div>
+        <aside class="hamburger-menu">
+            <i class="fas fa-times"></i>
+            <a href="#">Home</a>
+            <a href="#">About Us</a>
+            <a href="#">Services</a>
+            <a href="#">Contact Us</a>
+            <div class="social-icons-aside">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fas fa-phone-alt"></i>
+                <i class="far fa-envelope"></i>
+            </div>
+        </aside>
+    </header>
+
+    <section id="hero">
+        <div id="intro-heading">
+            <h1>Gourmet cakes & pattiserie for any occasion</h1>
+            <div id="info-buttons">
+                <p class="button">Find out more</p>
+                <p class="button">Contact Us</p>
+            </div>
+        </div>
+    </section>
+    <section class="about-container" id="about">
+        <div class="image-container">
+            <div class="splide">
+                <div class="splide__track">
+                    <ul class="splide__list">
+                        <li class="splide__slide"><img class="carousel" src="./images/floral-cake.JPG"></li>
+                        <li class="splide__slide"><img class="carousel" src="./images/marzipan.jpg"></li>
+                        <li class="splide__slide"><img class="carousel" src="./images/flower.jpg"></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="about-bio">
+            <h3 class="about-heading">About</h3>
+            <p>Radley Dekker is a specialised patisserie and experienced executive Chef. With over 40 year’s industry
+                experience, he has mastered the art of exquisite food design, preparation and presentation. Qualified in
+                French Patisserie, bakery, commercial cookery and hospitality management, he has worked in renowned
+                five-star establishments, both in Australia and internationally.</p>
+            <p>Currently a hospitality, commercial cookery, patisserie and bakery trainer in Australia, Radley’s
+                knowledge and flair for food design, can help to cater to any event or occasion.</p>
+        </div>
+    </section>
+
+    <section class="services-container" id="services">
+        <div>
+            <h3>Services</h3>
+            <p>We offer a range of services to suit any occasion. From weddings, engagements to birthday parties, our
+                elaborate cakes designs and catering services, we’ll make your event a memorable occasion. We also offer
+                consulting services including restaurant consulting, menu & recipe design and workplace training.</p>
+        </div>
+        <div class="flipcard-container">
+            <div class="flip-card-1">
+                <div class="flip-card-inner-1">
+                    <div class="flip-card-front-1">
+                    </div>
+                    <div class="flip-card-back-1">
+                        <div class="flip-text">
+                            <h4 class="flip-header">Cake Design & Patisserie</h4>
+                            <p>Wedding & Engagement Cakes</p>
+                            <p>Croquembouches</p>
+                            <p>Continental Sweets</p>
+                            <p>Continental Cakes</p>
+                            <p>Flower Design</p>
+                            <p>Chocolate Showpieces</p>
+                            <p>Sugar Showpieces</p>
+                            <p>Cupcakes</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="flip-card-2">
+                <div class="flip-card-inner-2">
+                    <div class="flip-card-front-2"></div>
+                    <div class="flip-card-back-2">
+                        <div class="flip-text">
+                            <h4 class="flip-header">Breads</h4>
+                            <p>Breads</p>
+                            <p>Various Breads</p>
+                            <p>Tiffin Cakes</p>
+                            <p>Tartes</p>
+                            <p>Flans</p>
+                            <p>Pastries & Pies</p>
+                            <p>Choux Pastries</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="flip-card-3">
+                <div class="flip-card-inner-3">
+                    <div class="flip-card-front-3"></div>
+                    <div class="flip-card-back-3">
+                        <div class="flip-text">
+                            <h4 class="flip-header">Consulting Services</h4>
+                            <p>Restaurant Consulting</p>
+                            <p>Menu & Recipe Design</p>
+                            <p>Costing & Inventory</p>
+                            <p>Food Safety & WHS s</p>
+                            <p>Workplace Training</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section id="contact-us">
+        <h3 class="heading-contact-us">Contact Us</h2>
+            <h4 class=contact-us-text>Have a query or want to get in touch? Call or drop us an email, or simply fill out
+                the contact form
+                below
+                and we'll get back to you right away!</h4>
+            <form>
+                <fieldset>
+                    <label class="label-field-0" for="first-name">First Name</label>
+                    <input class="input-field" type="text" id="first-name">
+
+                    <label class="label-field" for="last-name">Last Name</label>
+                    <input class="input-field" type="text" id="last-name">
+                    <label class="label-field" for="email">Email</label>
+                    <input class="input-field" type="text" id="email"> <label class="label-field"
+                        for="phone-number">Phone Number</label>
+                    <input class="input-field" type="text" id="phone-number"> <label class="label-field-1"
+                        for="query">How can we
+                        help?</label>
+                    <input class="input-field-1" type="text" id="query">
+                    <input class="submit" type="submit" value="Submit">
+                </fieldset>
+            </form>
+    </section>
+
+    <footer>
+        <p>© 2021 Radley Cake Design. All Rights Reserved.</p>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/4d94c79bdf.js"></script>
+    <script src="js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
+    <script>
+        new Splide('.splide').mount();
+    </script>
+</body>
+
+</html>
